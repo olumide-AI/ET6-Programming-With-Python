@@ -12,7 +12,7 @@ class: middle, center
 
 class: middle, center
 
-## Pre-Knowledge: _Word Cloud_
+## Pre-Knowledge: _Open Answers_
 
 ---
 
@@ -20,7 +20,11 @@ class: middle
 
 ## Agenda
 
-- **Word Cloud Discussion**
+- **Slack and Zoom Etiquette**
+
+- **Pre-Knowledge Discussion**
+
+- **Learning Objectives**
 
 - **Connecting the Pieces**
 
@@ -39,6 +43,34 @@ Break!
 - **Deliverables**
 
 - **Q & A**
+
+---
+
+class: middle, center
+
+## Slack and Zoom Etiquette
+
+---
+
+class: middle
+
+## Learning Objectives
+
+Just Enough Workflow:
+
+- Basic idea of computers:  _applications, folder system, computing_
+
+- Cloning a repository from GitHub.
+
+- Writing and editing Python and Markdown.
+
+- Formatting and linting Markdown.
+
+- Using Git to version and host your code online.
+
+- Passing Continuous Integration checks.
+
+- _For this week: [objectives in the README](./README.md#learning-objectives)_
 
 ---
 
@@ -95,7 +127,7 @@ class: center
 
 - help you connect _data_ and _computing_ to do something useful
 
-- can access your file system (_create, read, modify, delete_)
+- can access and modify your file system
 
 - can use your computer's processing resources
   - _passes data input -> ... computing ... -> uses data output_
@@ -119,7 +151,7 @@ class: center
 
 ### Applications: _Git_
 
-<img alt="Computing" src="./.assets/git.png" height="70%"  width="70%">
+<img alt="Git" src="./.assets/git.png" height="70%"  width="70%">
 
 ???
 
@@ -130,6 +162,14 @@ Git helps you:
 - combine experiments with the main project
 - tag past versions of the project
 - share this history remotely with other computers
+
+---
+
+class: center
+
+## GitHub
+
+<img alt="GitHub" src="./.assets/github.png" height="90%"  width="90%">
 
 ---
 
@@ -147,7 +187,9 @@ Breakouts will be longer than it takes to finish the quiz so you can get to know
 
 class: middle, center
 
-## Big Picture Quiz: _discussion_
+## Big Picture Quiz
+
+### _discussion_
 
 ---
 
@@ -160,7 +202,7 @@ import time
 
 time.sleep(300)
 
-print('back to work')
+print('back to class')
 ```
 
 ---
@@ -228,7 +270,9 @@ Breakouts will be longer than it takes to finish the quiz so you can get to know
 
 class: middle, center
 
-## Workflows Quiz: _discussion_
+## Workflows Quiz
+
+### _discussion_
 
 ---
 

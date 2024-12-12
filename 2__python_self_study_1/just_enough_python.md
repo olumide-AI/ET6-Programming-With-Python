@@ -156,7 +156,7 @@ assert 4 > 3, 'four is greater than 3'
 assert 4 == 3 # AssertionError
 
 # a failing assertion with a description
-assert 4 == 3, 'four is greater than three' # AssertionError: four is greater than three
+assert 4 == 3, 'four is equal to three' # AssertionError: four is equal to three
 ```
 
 [TOP](#just-enough-python-cheat-sheet)
@@ -166,7 +166,7 @@ assert 4 == 3, 'four is greater than three' # AssertionError: four is greater th
 ## String Manipulation
 
 The data type used for storing and manipulating text data. Strings will be the
-main type of data used in Welcome to Python.
+main type of data used in the first Python workshops.
 
 ```py
 # string length
@@ -203,8 +203,8 @@ len("ab")  # 2
 "abc"[2:]  # 'c'
 
 "abc"[:0]  # ''
-"abc"[:1]  # 'bc'
-"abc"[:2]  # 'c'
+"abc"[:1]  # 'a'
+"abc"[:2]  # 'ab'
 
 "abc"[0:0]  # ''
 "abc"[0:1]  # 'a'
@@ -279,8 +279,8 @@ letters = ['b', 'c']
 letters.append('d')
 print(letters) # ['b', 'c', 'd']
 
-# add an item to the beginning of the list
-letters.insert('a')
+# insert an item at a specific index in the list
+letters.insert(0,'a')
 print(letters) # ['a', 'b', 'c', 'd']
 
 # get the length of a list
@@ -307,13 +307,15 @@ Programmers can pass string data into your programs using `input`.
 ```py
 # --- input ---
 
-# allows the user to enter text
-user_input = input("enter some text:\n")
+# allows the user to enter a string value for the program to use
+string_from_user = input("enter some text:\n")
 
 # --- output ---
 
-# prints a message but does not take user input
-print('thank you for this text: ' + user_input)
+appreciation = 'thank you for this text: ' + string_from_user
+
+# prints a message, but does not accept new input from the user
+print(appreciation)
 ```
 
 [TOP](#just-enough-python-cheat-sheet)
@@ -423,7 +425,7 @@ print(eight) # 8
 
 # --- test the function with assertions ---
 
-assert add(3, 4) == 7, '3 + 4  = 7'
+assert add(3, 4) == 7, '3 + 4 = 7'
 assert add(2, 6) == 7, '2 + 6 = 8'
 
 zero = add(-1, 1)
