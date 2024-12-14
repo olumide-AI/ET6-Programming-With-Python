@@ -1,10 +1,11 @@
 # Run unittest python3 -m unittest path/to/file
 import unittest
+import unittest
 
-from ..mystery_7 import mystery_7
+from ..list_from_length import list_from_length
 
-class TestMystery7(unittest.TestCase):
-    """ """
+class TestListFromLength(unittest.TestCase):
+    """Generates a new least using a starting point and a length given in the parameter """
     def test_1(self):
         actual = list_from_length(0,0)
         expected = []

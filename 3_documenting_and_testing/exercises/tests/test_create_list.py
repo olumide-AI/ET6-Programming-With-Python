@@ -1,37 +1,36 @@
 # Run unittest python3 -m unittest path/to/file
 import unittest
 
-from ..mystery_7 import mystery_7
+from ..create_list import create_list
 
-class TestMystery7(unittest.TestCase):
-    """ """
+class TestCreateList(unittest.TestCase):
+    """ To create a list of numbers form 0 to the (list_length -1) """
     def test_1(self):
-        actual = list_from_length(0,0)
+        actual = create_list(0)
         expected = []
         self.assertEqual(actual,expected)
 
     def test_2(self):
-        actual = list_from_length(1,0)
+        actual = create_list(1)
         expected = [0]
         self.assertEqual(actual,expected)
 
     def test_3(self):
-        actual = list_from_length(5,20)
-        expected = [20, 21, 22, 23, 24]
+        actual = create_list(2)
+        expected = [0, 1]
         self.assertEqual(actual,expected)
 
     def test_4(self):
-        actual = list_from_length(5,-2)
-        expected = [-2, -1, 0, 1, 2]
+        actual = create_list(3)
+        expected = [0, 1, 2]
         self.assertEqual(actual,expected)
 
     def test_5(self):
-        actual = list_from_length(6,-4)
-        expected = [-4, -3, -2, -1, 0, 1]
+        actual = create_list(4)
+        expected = [0, 1, 2, 3]
         self.assertEqual(actual,expected)
 
     def test_6(self):
-        actual = list_from_length(2,100)
-        expected = [100, 101]
+        actual = create_list(5)
+        expected = [0,1,2,3,4]
         self.assertEqual(actual,expected)
-
