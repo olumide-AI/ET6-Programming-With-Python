@@ -62,15 +62,15 @@ your study time and to measure your progress:
         in your personal computer for the materials you will study at Emerging
         Talent.
 - **Visual Studio Code**:
-  - [ ] 🥚 You can open a folder in a new window
-  - [ ] 🥚 You can add a new file to your folder
-  - [ ] 🥚 You can add a new folder inside your folder
-  - [ ] 🥚 You can delete a file
-  - [ ] 🥚 You can delete a folder
-  - [ ] 🥚 You can create a new Markdown document with the `.md` extension
-  - [ ] 🥚 You can write a Markdown document
-  - [ ] 🥚 You can preview a Markdown document
-  - [ ] 🐣 You can use keyboard shortcuts for as many of these tasks as possible
+  - [X] 🥚 You can open a folder in a new window
+  - [X] 🥚 You can add a new file to your folder
+  - [X] 🥚 You can add a new folder inside your folder
+  - [X] 🥚 You can delete a file
+  - [X] 🥚 You can delete a folder
+  - [X] 🥚 You can create a new Markdown document with the `.md` extension
+  - [X] 🥚 You can write a Markdown document
+  - [X] 🥚 You can preview a Markdown document
+  - [X] 🐣 You can use keyboard shortcuts for as many of these tasks as possible
         (_if you are using a desktop or laptop_)
 - **GitHub Code Spaces**: GitHub Codespaces allow you to use VSCode from a web
   browser if you have a mobile device, a tablet device, or you can't install
@@ -93,14 +93,14 @@ your study time and to measure your progress:
 Take a first look through the [Suggested Study](../suggested_study/) resources
 focusing on these topics.  Suggested Study is just a suggestion!  You can study these topics using any resources in any language you prefer:
 
-- [ ] **README**: Learning in Public, Being a Developer, Markdown and READMEs
+- [X] **README**: Learning in Public, Being a Developer, Markdown and READMEs
 - [ ] **Tech Foundations**: The Internet
-- [ ] **CLI**: _especially the games_
-- [ ] **Git and GitHub**: Git (_especially the games_)
+- [X] **CLI**: _especially the games_
+- [X] **Git and GitHub**: Git (_especially the games_)
 
 ### Create Your GitHub Account
 
-- [ ] Create a GitHub account if you don't have one already (_no matter what
+- [X] Create a GitHub account if you don't have one already (_no matter what
       device you are using_):
   - Choose a professional username
   - Add a short bio
@@ -109,7 +109,7 @@ focusing on these topics.  Suggested Study is just a suggestion!  You can study 
   - Optional links to your social media accounts
   - A link to your personal website if you have one
   - Your contact info, if you're comfortable sharing it publicly
-- [ ] Connect your computer to GitHub with SSH (_This deliverable is only
+- [X] Connect your computer to GitHub with SSH (_This deliverable is only
       required if you are using a laptop/desktop where you have a private
       account._)
   - This can be tricky! we're here to help each other on Slack, and there are
@@ -121,15 +121,15 @@ focusing on these topics.  Suggested Study is just a suggestion!  You can study 
 > device.
 
 - **Install these if you are using a laptop, desktop, mobile or tablet**
-  - [ ] [Slack](https://slack.com/downloads/) - for all Emerging Talent
+  - [X] [Slack](https://slack.com/downloads/) - for all Emerging Talent
         communication
-  - [ ] [Zoom](https://zoom.us/support/download) - for online class
+  - [X] [Zoom](https://zoom.us/support/download) - for online class
 - **Install these only if you are using a laptop or desktop**
-  - [ ] [Visual Studio Code](https://code.visualstudio.com/download) - used
+  - [X] [Visual Studio Code](https://code.visualstudio.com/download) - used
         write and edit your code
-  - [ ] [git](https://git-scm.com/downloads) for Mac and Linux, or
+  - [X] [git](https://git-scm.com/downloads) for Mac and Linux, or
         [git for windows](https://gitforwindows.org/)
-  - [ ] [Python](https://www.python.org/downloads/)
+  - [X] [Python](https://www.python.org/downloads/)
   - [oh my zsh](https://ohmyz.sh/) (optional): this will help you find your way
     around the CLI
   - GitHub Desktop (optional)
@@ -155,14 +155,14 @@ one that looks interesting? give it a try!
 [How to install VSCode Extensions](https://www.youtube.com/watch?v=PmdbndOoKq4)
 
 - **For Pair Programming**
-  - [ ] [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+  - [X] [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - **For Git & GitHub**
   - [ ] [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
   - [ ] [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   - [ ] [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   - [ ] [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 - **For programming generally**
-  - [ ] [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+  - [X] [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
   - [ ] [Blockman](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman)
   - [ ] [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
   - [ ] [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
@@ -173,11 +173,11 @@ one that looks interesting? give it a try!
   - [ ] [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   - [ ] [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 - **For writing Markdown**
-  - [ ] [MarkdownLint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+  - [X] [MarkdownLint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
   - [ ] [Markdown All-In-One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
   - [ ] [Markdown Preview GitHub Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 - **For writing Python**
-  - [ ] [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [X] [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   - [ ] [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
   - [ ] [Python Indent](https://marketplace.visualstudio.com/items?itemName=KevinRose.vsc-python-indent)
   - [ ] [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
@@ -185,7 +185,7 @@ one that looks interesting? give it a try!
   - [ ] [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter)
   - [ ] [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
   - [ ] [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-  - [ ] [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+  - [X] [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
   - [ ] [Python Snippets](https://marketplace.visualstudio.com/items?itemName=frhtylcn.pythonsnippets)
 - **For writing Notebooks**
   - [ ] [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
