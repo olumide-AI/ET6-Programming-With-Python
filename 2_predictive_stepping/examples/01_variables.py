@@ -19,7 +19,7 @@ You will know you have understood this file when you can:
 """
 
 # you create a new variable by assign a value to it
-name = "D'athaniel"
+name = "D'athaniel" #This is fine because wwe're using diff quotation marks, so no syntax error
 
 # you can assign a new value to a variable with the same syntax
 name = "Mittens"
@@ -35,6 +35,6 @@ hand_thing = "glove"
 name = "Poalia"
 
 # using a variable without first assigning a value will throw an error
-toadstool
+toadstool #This throws an error, cause it's not defined, to fix use name = "toadstool"
 
 print("end of script")

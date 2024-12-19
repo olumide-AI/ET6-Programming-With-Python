@@ -51,3 +51,5 @@ elif response == "N":
 
 
 print("end of script")
+
+# I understand conditional completely 

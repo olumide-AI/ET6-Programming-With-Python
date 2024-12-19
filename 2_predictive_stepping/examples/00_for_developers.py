@@ -8,4 +8,4 @@ Comments and prints are tools for developers, they don't change the program's be
 """
 
 # printing does not change anything in program memory
-print("hello developer")
+print("hello developer") #It just prints unto the console log

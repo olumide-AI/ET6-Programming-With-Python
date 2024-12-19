@@ -33,7 +33,7 @@ def reverse(to_reverse: str) -> str:
 # try stepping over this function call
 _1_arg = "Bori"
 _1_return_value = reverse(_1_arg)
-assert _1_return_value == "iroB", "reverse: Test 1"
+assert _1_return_value == "iroB", "reverse: Test 1" #assert doesn't show up in memory 
 
 # try stepping all the way through this function call
 _2_arg = "<[+]>"

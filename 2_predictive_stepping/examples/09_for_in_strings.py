@@ -14,3 +14,5 @@ for char in to_reverse:
     backwards = char + backwards
 
 print("end of program")
+
+# the code loops around the for loop until it runs through all the characters in input

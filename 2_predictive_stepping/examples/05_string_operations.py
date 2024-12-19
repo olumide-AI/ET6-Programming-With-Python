@@ -11,27 +11,27 @@ None of these operations modify the string they use as input!
 text = "Python"
 
 # slicing single characters
-sliced = text[0]
-sliced = text[5]
+sliced = text[0] #p
+sliced = text[5] #n
 
 # slicing substrings
-sliced = text[0:5]
-sliced = text[0:4]
-sliced = text[0:3]
-sliced = text[1:4]
-sliced = text[2:4]
+sliced = text[0:5] #pytho
+sliced = text[0:4] #pyth
+sliced = text[0:3] #pyt
+sliced = text[1:4] #yth
+sliced = text[2:4] #th
 
 # getting the length of a string
-length = len(text)
+length = len(text) #6
 
 # replacing substrings
-replaced = text.replace("P", "Z")
-replaced = text.replace("p", "z")
-replaced = text.replace("on", "agoras")
+replaced = text.replace("P", "Z") #Zython
+replaced = text.replace("p", "z") #not sure what happened in this line 
+replaced = text.replace("on", "agoras") #pythagoras
 
-# setting strings to lower or opper case
-upper = text.upper()
-lower = text.lower()
+# setting strings to lower or upper case
+upper = text.upper() #PYTHON
+lower = text.lower() #python
 
 # remove whitespace from the ends of a string
 stripped = "  Python  ".strip()

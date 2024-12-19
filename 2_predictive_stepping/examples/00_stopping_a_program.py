@@ -13,4 +13,5 @@ while True:
 """
 To stop a program from running you can press Ctrl + c 
 if it is running continuously without stopping
+or just press the red square to stop debugger from running
 """
