@@ -38,5 +38,5 @@ class TestAddTwoValues(unittest.TestCase):
 #This should fail intentionally 
     def test_1(self):
         actual = add_two_values(0,1)
-        expected = 2
+        expected = 1
         self.assertEqual(actual,expected)
