@@ -20,7 +20,7 @@ def reverse_words(text: str) -> str:
         
     Returns -> str: string with words in reverse order
     
-    >>> reverse_words("hello world")
+    >>> reverse_words("hello world, I here")
     'world hello'
     >>> reverse_words("one")
     'one'
@@ -28,11 +28,7 @@ def reverse_words(text: str) -> str:
     ''
     """
     assert isinstance(text, str), "input must be a string"
-
     words = text.split(" ")
-    result = ""
-    
-    for word in words:
-        result = " " + word + result
-        
+    words.reverse()
+    result = " ".join(words)
     return result
